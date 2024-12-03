@@ -1,0 +1,153 @@
+@media (min-width: 769px) {
+  .footer_wrapper {
+    flex-direction: row !important;
+    -webkit-flex-direction: row !important;
+  }
+  .check {
+    display: block !important;
+    -webkit-display: block !important; 
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_wrapper {
+    flex-direction: column !important;
+    -webkit-flex-direction: column !important; 
+  }
+  .mobile_check {
+    display: block !important;
+    -webkit-display: block !important; 
+  }
+}
+@media (max-width: 1400px) {
+  .content_name {
+    font-size: 36px !important;
+  }
+  .bio_work {
+    margin-top: 5px !important;
+  }
+  .bio_date {
+    margin-top: 10px !important;
+  }
+  .mid_text {
+    flex-direction: column !important;
+    -webkit-flex-direction: column !important;
+  }
+  .mid_text_left {
+    width: 100% !important;
+  }
+  .mid_text_right {
+    width: 100% !important;
+  }
+  .main_text {
+    flex-direction: column !important;
+    -webkit-flex-direction: column !important;
+    padding-left: auto;
+  }
+  .content_img {
+    width: 90% !important;
+  }
+  .bio_container {
+    width: 70% !important;
+  }
+}
+@media (max-width: 770px) {
+  .secondary_nav_box_links {
+    display: none;
+    -webkit-display: none; 
+  }
+  .content_name {
+    font-size: 24px !important;
+  }
+  .main_content {
+    width: 100% !important;
+  }
+  .main_text {
+    padding-left: 10px !important;
+  }
+  .stay_title {
+    display: none !important;
+    -webkit-display: none !important;
+  }
+  .connected_img_box {
+    display: none !important;
+    -webkit-display: none !important;
+  }
+  .footer_part1 {
+    width: 95% !important;
+  }
+  .footer_part2 {
+    width: 95% !important;
+  }
+  .footer_part3 {
+    width: 95% !important;
+  }
+  .author_meaning {
+    margin-left: 5px !important;
+  }
+  .footer_box {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+@media (max-width: 935px) {
+  .bottom_bar_box {
+    flex-direction: column !important;
+    -webkit-flex-direction: column !important;
+    justify-content: left !important;
+    -webkit-justify-content: left !important;
+  }
+  .bottom_bar {
+    justify-content: left !important;
+    -webkit-justify-content: left !important;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .secondary_nav_channelName {
+    display: none;
+    -webkit-display: none;
+  }
+  .secondary_nav_live::after {
+    content: "";
+  }
+  .text_paragraph {
+    font-size: 16px !important;
+    line-height: 1.1rem !important;
+  }
+  .author_meaning {
+    font-size: 16px !important;
+    line-height: 1.1rem !important;
+    margin-left: 10px !important;
+  }
+  .note {
+    font-size: 16px !important;
+    line-height: 1.1rem !important;
+  }
+  .text_paragraph_research {
+    font-size: 16px !important;
+    line-height: 1.1rem !important;
+  }
+  .day_tag {
+    font-size: 1.25rem !important;
+  }
+  .instructions_title {
+    font-size: 1.25rem !important;
+  }
+  .instructions_step {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 1075px) {
+  .secondary_nav {
+    margin-right: 70px;
+  }
+  .header_nav {
+    display: none;
+    -webkit-display: none; 
+  }
+  .burger {
+    display: block;
+    -webkit-display: block;
+  }
+}

@@ -1,0 +1,163 @@
+.check {
+  max-width: 100%;
+  border: 2px solid #afafaf;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.check thead {
+  border-left: none;
+}
+.check p {
+  font-family: monospace !important;
+  font-weight: 600;
+}
+.check th {
+  font-family: monospace !important;
+  font-weight: 600;
+  padding-left: 2px;
+}
+.check td {
+  font-family: monospace !important;
+  font-weight: 600;
+}
+
+.check_top_part {
+  display: flex;
+  -webkit-display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.check_logo {
+  width: 80px;
+  height: auto;
+  padding-right: 5px;
+}
+
+.account_details,
+.account_info {
+  font-size: 14px;
+  text-align: left;
+}
+.account_info {
+  padding-right: 20px;
+}
+
+.client_info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.client_info_number {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.transactions {
+  width: 100%;
+  border-collapse: collapse;
+  -webkit-border-collapse: collapse;
+  margin-top: 20px;
+  border-left: none;
+}
+
+.transactions th,
+.transactions td {
+  border: 2px solid #000;
+  border-left: none;
+  border-top: none;
+  text-align: left;
+}
+
+.transactions th {
+  background: #ccc;
+}
+
+.transactions td {
+  font-size: 14px;
+}
+.transactions td:nth-child(1) {
+  width: fit-content !important;
+  width: -webkit-fit-content !important;
+}
+.transactions th:nth-child(1) {
+  width: fit-content !important;
+  width: -webkit-fit-content !important;
+}
+.transactions td:nth-child(3),
+.transactions td:nth-child(4),
+.transactions td:nth-child(5) {
+  text-align: left;
+}
+
+.mobile_check {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #afafaf;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.mobile_logo {
+  display: block;
+  -webkit-display: block;
+  margin: 0 auto 15px;
+  width: 80px;
+  height: auto;
+}
+
+.mobile_header {
+  text-align: center;
+}
+
+.mobile_header p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.amount_title {
+  color: #575757;
+  font-weight: 600;
+  font-size: 18px !important;
+  margin-top: 10px;
+}
+.amount_date {
+  color: #575757;
+  font-weight: 600;
+}
+.amount_value {
+  font-weight: 700;
+  font-size: 24px !important;
+  color: #000;
+  margin-top: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #afafaf;
+  margin: 15px 0;
+}
+
+.mobile_details {
+  font-size: 12px;
+}
+
+.mobile_details p {
+  color: #575757;
+  margin: 8px 0;
+  display: flex;
+  -webkit-display: flex;
+  justify-content: space-between;
+}
+
+.mobile_details span {
+  color: #575757;
+}
+.check,
+.mobile_check {
+  display: none;
+}
